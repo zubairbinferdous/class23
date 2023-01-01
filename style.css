@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 110px;
+}
+
+.menu-data ul{
+    display: flex;
+    
+}
+
+.menu-data ul li{
+    list-style: none;
+}
+
+.menu-data ul li a{
+    padding: 10px 10px;
+    display: block;
+    margin: 0px 10px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    
+}
+
+
+.flex-contant{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.flex-itam{
+    box-sizing: border-box;
+    width: 70%;
+
+}
+.justify-align{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-start{
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
+    background-color: aqua;
+}
+.content-center{
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
+    background-color: rgb(255, 0, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-end{
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
+    background-color: rgb(25, 0, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.itam{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeItam{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.flex-itam1{
+    border: 2px solid green;
+    flex: 1 0 0%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.growitam{
+    flex-grow: 2;
+}
+
+.flex-itam2 {
+    border: 2px solid green;
+    flex: 1;
+    margin: 0px 20px;
+    display:flex;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.flex-btn{
+    background-color: red;
+    border: 1px solid green;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.style1{
+    justify-content: space-between;
+}
+.style2{
+    flex-wrap: wrap;
+}
+
+.style3{
+    justify-content: space-evenly;
+}
+.style4{
+    align-self: center;
+}
+
+.style5{
+    align-self: flex-end;
+}
+
+.flex-itam-sidebar{
+    width: 30%;
+    height: 650px;
+    border-left: 1px solid rgb(237, 8, 8);
+    box-sizing: border-box;
+    padding: 30px;
+    background-color:antiquewhite;
+}
